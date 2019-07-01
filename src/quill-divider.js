@@ -15,9 +15,8 @@ class DividerToolbar extends Module {
 
     dividerHandler() {
         const selection = (this.quill.getSelection() || {}).index || this.quill.getLength()
-        this.quill.insertText(selection, '\n', Quill.sources.SILENT)
+        this.quill.insertText(selection, '\n', Quill.sources.USER)
         this.quill.insertEmbed(selection + 1, 'divider', true, Quill.sources.USER)
-        this.quill.insertText(selection + 2, '\n', Quill.sources.SILENT)
     }
 }
 

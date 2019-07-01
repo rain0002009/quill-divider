@@ -7,4 +7,5 @@ class Divider extends BlockEmbed {
 
 Divider.blotName = 'divider'
 Divider.tagName = 'hr'
+Divider.className = 'quill-hr'
 export default Divider
