@@ -22,19 +22,6 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
-                use: [
-                    'css-loader',
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            sourceMap: true,
-                            sourceMapContents: false
-                        }
-                    },
-                ],
-            },
-            {
                 test: /\.(jpg|png|gif)$/i,
                 include: /src/,
                 use: [
@@ -66,7 +53,6 @@ const config = {
             new UglifyJsPlugin({
                 uglifyOptions: {
                     compress: {
-                        warnings: false,
                         conditionals: true,
                         unused: true,
                         comparisons: true,
