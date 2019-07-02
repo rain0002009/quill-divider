@@ -6,7 +6,9 @@ const options = {
                 ['divider']
             ]
         },
-        divider: true
+        divider: {
+            cssText: 'border: none;border-bottom: 1px inset;'
+        }
     },
     theme: 'snow'
 }
