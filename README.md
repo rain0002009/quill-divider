@@ -23,7 +23,7 @@ const quill = new Quill(editor, {
 ### Config
 For the default experience, pass a true, like so:
 ```javascript
-var quill = new Quill(editor, {
+new Quill(editor, {
     // ...
     modules: {
         // ...
@@ -33,13 +33,26 @@ var quill = new Quill(editor, {
 ```
 #### `cssText` - Styles of the element
 ```javascript
-var quill = new Quill(editor, {
+new Quill(editor, {
     // ...
     modules: {
         // ...
         divider: {
             // default
             cssText: 'border: none;border-bottom: 1px inset;'
+        }
+    }
+});
+```
+#### `className` -  ClassName of the element
+```javascript
+new Quill(editor, {
+    // ...
+    modules: {
+        // ...
+        divider: {
+            // default
+            className: void 0
         }
     }
 });

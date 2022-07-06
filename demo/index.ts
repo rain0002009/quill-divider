@@ -1,3 +1,5 @@
+import Quill from 'quill'
+import '../src/quill-divider'
 const options = {
     modules: {
         toolbar: {
@@ -12,4 +14,4 @@ const options = {
     },
     theme: 'snow'
 }
-const editor = new Quill('#editor', options)
+new Quill('#app', options)
