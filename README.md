@@ -1,8 +1,16 @@
-# Quill Divider
+# Quill Divider [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rain0002009/quill-divider/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/quill-divider.svg?style=flat)](https://www.npmjs.com/package/quill-divider)
 Module extension for [Quill.js](https://github.com/quilljs/quill) that handles divider in the toolbar.
+### Install
+```bash
+yarn add quill-divider
+```
 ### Usage
 
 ```javascript
+import Quill from 'quill'
+import 'quill/dist/quill.snow.css'
+import 'quill-divider'
+
 const toolbarOptions = {
   container: [
     ['bold', 'italic', 'underline', 'strike'],
