@@ -9,7 +9,12 @@ const options = {
             ]
         },
         divider: {
-            cssText: 'border: none;border-bottom: 1px inset;'
+            cssText: 'border: none;border-bottom: 1px solid;',
+            text: {
+                children: 'test',
+                orientation: 'center',
+                childrenStyle: 'padding: 0 24px;'
+            }
         }
     },
     theme: 'snow'

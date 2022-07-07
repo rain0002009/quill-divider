@@ -39,22 +39,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash-es@npm:^4.17.6":
-  version: 4.17.6
-  resolution: "@types/lodash-es@npm:4.17.6"
-  dependencies:
-    "@types/lodash": "*"
-  checksum: 9bd239dd525086e278821949ce12fbdd4f100a060fed9323fc7ad5661113e1641f28a7ebab617230ed3474680d8f4de705c1928b48252bb684be6ec9eed715db
-  languageName: node
-  linkType: hard
-
-"@types/lodash@npm:*":
-  version: 4.14.182
-  resolution: "@types/lodash@npm:4.14.182"
-  checksum: 7dd137aa9dbabd632408bd37009d984655164fa1ecc3f2b6eb94afe35bf0a5852cbab6183148d883e9c73a958b7fec9a9bcf7c8e45d41195add6a18c34958209
-  languageName: node
-  linkType: hard
-
 "@types/quill@npm:^2.0.9":
   version: 2.0.9
   resolution: "@types/quill@npm:2.0.9"
@@ -1202,13 +1186,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quill-divider@workspace:."
   dependencies:
-    "@types/lodash-es": ^4.17.6
     "@types/quill": ^2.0.9
     quill: ^1.3.7
     typescript: ^4.7.4
     vite: ^2.9.13
   peerDependencies:
-    quill: ^1.3.6
+    quill: ^1.3.7
   languageName: unknown
   linkType: soft
 

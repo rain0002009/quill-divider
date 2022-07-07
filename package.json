@@ -1,8 +1,10 @@
 {
   "name": "quill-divider",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Quill Extension for Divider",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/quill-divider.umd.js",
   "module": "dist/quill-divider.es.js",
   "scripts": {
@@ -22,7 +24,6 @@
   "author": "rain0002009",
   "license": "MIT",
   "devDependencies": {
-    "@types/lodash-es": "^4.17.6",
     "@types/quill": "^2.0.9",
     "typescript": "^4.7.4",
     "vite": "^2.9.13"

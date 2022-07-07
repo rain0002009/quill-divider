@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig(({mode}) => {
     return {
-        root: mode === 'develop'?'demo': void 0,
+        root: mode === 'development'?'demo': void 0,
         build: {
             lib: {
                 entry: './src/quill-divider.ts',
